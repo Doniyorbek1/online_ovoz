@@ -8,6 +8,6 @@ payload = {
     "url" : url
 }
 
-r = requests.get(f"https://api.telegram.org/bot{TOKEN}/setWebhook", params = payload)
+r = requests.get(f"https://api.telegram.org/bot{TOKEN}/setWebhook", params=payload)
 
 print(r.json())
