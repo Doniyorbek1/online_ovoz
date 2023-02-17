@@ -9,7 +9,7 @@ bot = Bot(TOKEN)
 
 app = Flask("__name__")
 
-@app.route('/', methods = ["GET", "POST"])
+@app.route('/home', methods = ["GET", "POST"])
 def hello():
     if request.method == "GET":
         return 'hi this is bot onlline ovoz'
